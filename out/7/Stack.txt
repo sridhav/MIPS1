@@ -1,0 +1,16 @@
+PUSH Z
+PUSH 4
+PUSH I
+MUL
+ADD
+POP z
+PUSH M3
+PUSH K
+Loop : BNE 
+PUSH I
+PUSH J
+ADD
+POP I
+
+J Loop
+True :

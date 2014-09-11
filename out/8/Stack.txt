@@ -1,0 +1,4 @@
+PUSH B
+PUSH C
+ADD
+POP A

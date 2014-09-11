@@ -1,0 +1,12 @@
+LOAD $R1 4
+MUL $R1 I
+ADD $R1 Z
+STORE z $R1
+LOAD $R1 M3
+BNE $R2 K
+LOAD $R1 J
+ADD $R1 I
+STORE I $R1
+
+J Loop
+True :

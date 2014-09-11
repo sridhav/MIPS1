@@ -1,0 +1,16 @@
+LOAD $R1 Z
+LOAD $R2 4
+LOAD $R3 I
+MUL $R4 $R3 $R2
+ADD $R5 $R4 $R1
+STORE z $R5
+LOAD $R1 M3
+LOAD $R2 K
+Loop : BNE $R1 $R2 Exit
+LOAD $R1 I
+LOAD $R2 J
+ADD $R3 $R2 $R1
+STORE I $R3
+
+J Loop
+Exit :

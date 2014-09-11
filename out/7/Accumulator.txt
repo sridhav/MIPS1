@@ -1,0 +1,12 @@
+LOAD 4
+MUL I
+ADD Z
+STORE z
+LOAD M3
+Loop : BNE  K
+LOAD J
+ADD I
+STORE I
+
+J Loop
+True :

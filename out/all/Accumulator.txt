@@ -1,0 +1,69 @@
+LOAD C
+ADD B
+MUL D
+SUB E
+NEG
+STORE A
+LOAD H
+ADD G
+STORE M2
+LOAD J
+ADD I
+SUB M2
+NEG
+STORE F
+LOAD 4
+MUL I
+ADD A
+STORE z
+LOAD z
+STORE G
+LOAD I
+BEQ J
+LOAD H
+SUB G
+NEG
+STORE F
+
+J Exit
+True : LOAD H
+ADD G
+STORE F
+
+Exit :
+loop :LOAD 4
+MUL I
+ADD A
+STORE z
+LOAD z
+STORE G
+loop :LOAD J
+ADD I
+STORE I
+loop :LOAD I
+BNE H
+
+J Exit
+True : J loop
+Exit :
+LOAD G
+BLT H
+
+J Exit
+True : J Less
+Exit:
+LOAD 4
+MUL I
+ADD Z
+STORE z
+LOAD M3
+Loop : BNE  K
+LOAD J
+ADD I
+STORE I
+
+J Loop
+True :
+LOAD C
+ADD B
+STORE A

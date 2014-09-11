@@ -1,0 +1,7 @@
+MUL M1, 4, I
+ADD z, Z, M1
+Loop : BNE M3 K True
+ADD I, I, J
+
+J Loop
+True :

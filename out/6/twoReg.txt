@@ -1,0 +1,6 @@
+LOAD $R1 G
+BLT $R2 H
+
+J Exit
+True : J Less
+Exit:

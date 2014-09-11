@@ -1,0 +1,3 @@
+LOAD $R1 C
+ADD $R1 B
+STORE A $R1

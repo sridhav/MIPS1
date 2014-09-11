@@ -1,0 +1,11 @@
+MOV M2 4
+MUL I M2
+ADD I Z
+MOV z I
+Loop : BNE M3 K
+MOV M2 J
+ADD M2 I
+MOV I M2
+
+J Loop
+True :

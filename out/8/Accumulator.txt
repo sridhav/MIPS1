@@ -1,0 +1,3 @@
+LOAD C
+ADD B
+STORE A

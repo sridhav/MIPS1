@@ -1,0 +1,6 @@
+LOAD G
+BLT H
+
+J Exit
+True : J Less
+Exit:

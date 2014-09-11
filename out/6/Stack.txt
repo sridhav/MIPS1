@@ -1,0 +1,7 @@
+PUSH G
+PUSH H
+BLT 
+
+J Exit
+True : J Less
+Exit:

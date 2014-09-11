@@ -1,0 +1,3 @@
+MOV M2 C
+ADD M2 B
+MOV A M2
